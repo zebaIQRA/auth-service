@@ -1,24 +1,27 @@
 {
-  "name": "microservices",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zebaIQRA/auth-service.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zebaIQRA/auth-service/issues"
-  },
-  "homepage": "https://github.com/zebaIQRA/auth-service#readme",
-  "devDependencies": {
-    "@types/node": "^26.6.5",
-    "typescript": "^7.0.2"
-  }
+    "name": "microservices",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node dist/server.js",
+        "format:fix": "prettier . --write",
+        "format:check": "prettier . --check"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zebaIQRA/auth-service.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zebaIQRA/auth-service/issues"
+    },
+    "homepage": "https://github.com/zebaIQRA/auth-service#readme",
+    "devDependencies": {
+        "@types/node": "^26.6.5",
+        "prettier": "3.9.10",
+        "typescript": "^7.0.2"
+    }
 }
